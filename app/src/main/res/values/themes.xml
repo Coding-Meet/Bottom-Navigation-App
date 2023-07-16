@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BottomNavigationApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+<!--    if material 2 version use and can not change material 2 -->
+    <style name="Theme.BottomNavigationApp.BottomNavigationView" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="bottomNavigationStyle">@style/Widget.AppCompat.BottomNavigationView</item>
+    </style>
+    <style name="Widget.AppCompat.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemActiveIndicatorStyle">@style/BottomNavigationView</item>
+        <item name="itemRippleColor">@color/rippleColor</item>
+    </style>
+    <style name="BottomNavigationView" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/indicatorColor</item>
+    </style>
+</resources>
