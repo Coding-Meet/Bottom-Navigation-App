@@ -24,4 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Fab With Bottom Navigation Bar"/>
+    <Button
+        android:id="@+id/colorBNBBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Bottom Navigation Bar"/>
 </LinearLayout>

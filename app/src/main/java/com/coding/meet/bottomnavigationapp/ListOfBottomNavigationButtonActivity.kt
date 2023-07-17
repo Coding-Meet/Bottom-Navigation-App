@@ -15,14 +15,19 @@ class ListOfBottomNavigationButtonActivity : AppCompatActivity() {
             startActivity(Intent(this,MainActivity::class.java))
         }
 
-
         val pinBNBBtn = findViewById<Button>(R.id.pinBNBBtn)
         pinBNBBtn.setOnClickListener {
             startActivity(Intent(this,PinterestActivity::class.java))
         }
+
         val fabWithBNBBtn = findViewById<Button>(R.id.fabWithBNBBtn)
         fabWithBNBBtn.setOnClickListener {
             startActivity(Intent(this,FabWithBottomActivity::class.java))
+        }
+
+        val colorBNBBtn = findViewById<Button>(R.id.colorBNBBtn)
+        colorBNBBtn.setOnClickListener {
+            startActivity(Intent(this,ColorBottomActivity::class.java))
         }
     }
 }

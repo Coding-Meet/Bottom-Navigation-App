@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BottomNavigationApp"
         tools:targetApi="31">
         <activity
+            android:name=".ColorBottomActivity"
+            android:exported="false" />
+        <activity
             android:name=".FabWithBottomActivity"
             android:exported="false" />
         <activity

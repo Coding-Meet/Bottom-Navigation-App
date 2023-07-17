@@ -13,7 +13,7 @@
     </style>
 
 
-<!--    if material 2 version use and can not change material 2 -->
+<!--    if material 3 version use and can not change material 2 -->
     <style name="Theme.BottomNavigationApp.BottomNavigationView" parent="Theme.Material3.Dark.NoActionBar">
         <item name="bottomNavigationStyle">@style/Widget.AppCompat.BottomNavigationView</item>
     </style>

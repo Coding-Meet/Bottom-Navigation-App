@@ -13,4 +13,8 @@
     <color name="indicatorColor">#03FF72</color>
     <color name="backgroundColor">#FF5722</color>
     <color name="mainColor">#FF5722</color>
+
+    <color name="color1">#00B1FF</color>
+    <color name="color2">#FF0303</color>
+    <color name="color3">#0028FF</color>
 </resources>
